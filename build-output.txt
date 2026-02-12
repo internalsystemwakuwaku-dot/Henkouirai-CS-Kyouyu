@@ -1,0 +1,67 @@
+﻿node.exe : 笞 `eslint`
+ configuration in next
+.config.ts is no longe
+r supported. See more 
+info here: https://nex
+tjs.org/docs/app/api-r
+eference/cli/next#next
+-lint-options
+発生場所 行:1 文字:1
++ & "C:\Program Files\
+nodejs/node.exe" "C:\P
+rogram Files\nodejs/no
+de_mo ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (笞 `eslint   
+ ` con...xt-lint-o    
+ptions:String) []    ,
+ RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+笞 Invalid next.config
+.ts options detected: 
+笞     Unrecognized ke
+y(s) in object: 'eslin
+t'
+笞 See more info here:
+ https://nextjs.org/do
+cs/messages/invalid-ne
+xt-config
+笆ｲ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+笨・Compiled successfully in 1760.9ms
+  Skipping validation of types
+  Collecting page data using 23 workers ...
+  Generating static pages using 23 workers (0/11) ...
+  Generating static pages using 23 workers (2/11) 
+  Generating static pages using 23 workers (5/11) 
+  Generating static pages using 23 workers (8/11) 
+笨・Generating static pages using 23 workers (11/11) in 481.9ms
+  Finalizing page optimization ...
+
+Route (app)
+笏・笳・/
+笏・笳・/_not-found
+笏・ﾆ・/api/ai/review
+笏・ﾆ・/api/auth/[...all]
+笏・笳・/dashboard
+笏・笳・/login
+笏・笳・/projects
+笏・笳・/register
+笏・笳・/tickets
+笏・ﾆ・/tickets/[id]
+笏・笳・/tickets/new
+
+
+笳・ (Static)   prerendered as static content
+ﾆ・ (Dynamic)  server-rendered on demand
+

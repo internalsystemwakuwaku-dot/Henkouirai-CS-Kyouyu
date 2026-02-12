@@ -1,0 +1,120 @@
+﻿node.exe : Vercel CLI 
+50.5.0
+発生場所 行:1 文字:1
++ & "C:\Program Files\
+nodejs/node.exe" "C:\P
+rogram Files\nodejs/no
+de_mo ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (Vercel CLI   
+  50.5.0:String) [    
+], RemoteExceptio    n
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+The "--output" option 
+was ignored because it
+ is now deprecated. Pl
+ease remove it.
+Error: `vercel logs <d
+eployment>` expects ex
+actly one argument
+
+  笆ｲ vercel logs url|d
+eploymentId [options]
+
+  Display runtime logs
+ for a deployment in r
+eady state, from now a
+nd for 5      
+  minutes at most.    
+                      
+                      
+              
+
+  Options:
+
+  -F,  --format <FORMA
+T>  Specify the output
+ format (json)        
+              
+
+
+  Global Options:
+
+       --cwd <DIR>    
+        Sets the curre
+nt working directory f
+or a single   
+                      
+        run of a comma
+nd                    
+              
+  -d,  --debug        
+        Debug mode (de
+fault off)            
+              
+  -Q,  --global-config
+ <DIR>  Path to the gl
+obal `.vercel` directo
+ry            
+  -h,  --help         
+        Output usage i
+nformation            
+              
+  -A,  --local-config 
+<FILE>  Path to the lo
+cal `vercel.json` file
+              
+       --no-color     
+        No color mode 
+(default off)         
+              
+  -S,  --scope        
+        Set a custom s
+cope                  
+              
+  -t,  --token <TOKEN>
+        Login token   
+                      
+              
+  -v,  --version      
+        Output the ver
+sion number           
+              
+
+
+  Examples:
+
+  - Pretty print all t
+he new runtime logs fo
+r the deployment DEPLO
+YMENT_URL from now on
+
+    $ vercel logs DEPL
+OYMENT_URL
+
+  - Print all runtime 
+logs for the deploymen
+t DEPLOYMENT_ID as jso
+n objects
+
+    $ vercel logs DEPL
+OYMENT_ID --format=jso
+n
+
+  - Filter runtime log
+s for warning with JQ 
+third party tool
+
+    $ vercel logs DEPL
+OYMENT_ID --format=jso
+n | jq 'select(.level 
+== "warning")'
+
